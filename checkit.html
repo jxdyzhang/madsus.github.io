@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Mad Sustainability</title>
+  <title>Check Its Sustainability</title>
   <link rel="stylesheet" type="text/css" href="main.css">
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
@@ -27,54 +27,3 @@
     </div>
 </nav>
 </div>
-
-  <div id="map"></div>
-    <script>
-        function initMap() {
-            var map = new google.maps.Map(document.getElementById('map'), {
-                center: new google.maps.LatLng(40.7128, -74.0059),
-                zoom: 10
-            });
-
-            var map = new google.maps.Map(document.getElementById('map'), {
-                center: new google.maps.LatLng(40.7128, -74.0059),
-                zoom: 10
-            });
-            console.log(map)
-                // Create an array of alphabetical characters used to label the markers.
-            var labels = '123456789';
-
-            // Add some markers to the map.
-            // Note: The code uses the JavaScript Array.prototype.map() method to
-            // create an array of markers based on a given "locations" array.
-            // The map() method here has nothing to do with the Google Maps API.
-            var markers = locations.map(function(location, i) {
-                return new google.maps.Marker({
-                    position: location,
-                    label: labels[i % labels.length]
-                });
-            });
-
-            // Add a marker clusterer to manage the markers.
-            var markerCluster = new MarkerClusterer(map, markers, {
-                imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
-            });
-        }
-        var locations = [
-          {lat: 40.668780, lng: -73.964628}, //Cherry Esplanade
-          {lat: 40.6408, lng: -74.0733}, //National Lighthouse Musuem
-          {lat: 40.7562, lng: -73.9693}, //Geenacre Park in Midtown
-          {lat: 40.8718, lng: -73.8056}, //Bartow-Pell Mansion Museum 
-          {lat: 40.739528, lng: -73.989398}, //Flying Tiger Copenhagen
-          {lat: 40.8506, lng: -73.8210} //Pelham Bay Park 
-          
-          
-          ]
-    </script>
-    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvhOpL2M3UhZAvaQiXFUlz4oaGDgRbiR4&callback=initMap">
-    </script>
-  
-  
-<br/>
