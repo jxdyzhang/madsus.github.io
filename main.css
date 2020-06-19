@@ -17,7 +17,7 @@ body {
 }
 
 #header {
-  background: url("https://cdn.shopify.com/s/files/1/2101/3083/products/134226.jpg?v=1558639640")
+  background: url("https://i.cbc.ca/1.5428950.1579179940!/fileImage/httpImage/image.JPG_gen/derivatives/original_780/australia-bushfires-trees.JPG")
     no-repeat center center fixed;
   display: table;
   height: 100vh;
@@ -130,7 +130,7 @@ footer {
   }
   
   #header {
-    background: url("https://cdn.shopify.com/s/files/1/2101/3083/products/134226.jpg?v=1558639640")
+    background: url("https://i.cbc.ca/1.5428950.1579179940!/fileImage/httpImage/image.JPG_gen/derivatives/original_780/australia-bushfires-trees.JPG")
     no-repeat center center scroll;
   }
   
